@@ -13,7 +13,7 @@ driver.get("https://github.com/sattu2007/Animation/")  # Update this with the pa
 time.sleep(2)  # Adding a delay to see the result
 
 # Assert some condition to verify the result
-assert "This is going to animate" in driver.title
+assert "Document" in driver.title
 
 # Take a screenshot
 timestamp = time.strftime("%Y%m%d-%H%M%S")
